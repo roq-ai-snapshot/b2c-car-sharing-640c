@@ -1,0 +1,2472 @@
+[
+  {
+    "invitation": [
+      {
+        "id": "f6575212-49e4-4def-9eef-96d1ffd9b97e",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-15T08:13:26.267Z",
+        "updated_at": "2023-08-16T02:22:28.550Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "85347c05-b72b-4532-b851-d2013987b824",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-15T20:28:59.218Z",
+        "updated_at": "2023-08-16T01:17:37.259Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "07811afb-cfa3-4f51-80c0-6b3d467cdd32",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-15T21:41:49.814Z",
+        "updated_at": "2023-08-16T05:33:32.888Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "89ee39d0-93f3-4698-819d-e8d835e3bd55",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-15T14:19:27.067Z",
+        "updated_at": "2023-08-15T07:50:10.751Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "ca24dd55-21d3-4f0d-b707-ba57febf7d5a",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-16T06:25:30.551Z",
+        "updated_at": "2023-08-16T04:04:18.276Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "81185f43-6ed8-45bd-9659-dd4db44f8283",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 85435,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-16T02:27:13.932Z",
+        "updated_at": "2023-08-16T00:45:21.614Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "41a8955d-d17a-45e6-89b7-b02330edb932",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 14639,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-15T10:47:09.209Z",
+        "updated_at": "2023-08-16T05:04:08.273Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0502e679-51ff-47ba-a7c7-1db5c8ef54bd",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 80402,
+        "status": "Under Maintenance",
+        "location": "Chicago",
+        "created_at": "2023-08-16T01:02:08.588Z",
+        "updated_at": "2023-08-15T15:48:09.116Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f3ff28ba-5348-491c-bdab-de0f3235d4aa",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 7050,
+        "status": "Out of Service",
+        "location": "Houston",
+        "created_at": "2023-08-16T02:11:50.781Z",
+        "updated_at": "2023-08-15T14:13:26.420Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "26bb5fbd-f47e-4e44-8b45-64663ed28a45",
+        "make": "BMW",
+        "model": "X5",
+        "year": 65712,
+        "status": "Reserved",
+        "location": "Miami",
+        "created_at": "2023-08-16T05:02:10.293Z",
+        "updated_at": "2023-08-15T19:24:37.344Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "3522c22b-0725-4dea-a6e5-fb78da70c7cd",
+        "start_time": "2023-08-15T15:19:20.941Z",
+        "end_time": "2023-08-15T16:37:03.294Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-15T15:58:09.701Z",
+        "updated_at": "2023-08-16T03:21:07.948Z",
+        "car_id": "0502e679-51ff-47ba-a7c7-1db5c8ef54bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bd1f040-e0d0-4e35-81be-cc78e8e3e001",
+        "start_time": "2023-08-15T21:01:12.397Z",
+        "end_time": "2023-08-15T13:35:07.671Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T01:09:35.382Z",
+        "updated_at": "2023-08-15T13:17:51.487Z",
+        "car_id": "0502e679-51ff-47ba-a7c7-1db5c8ef54bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d0d2941-f1b4-4270-8a09-8509aee5c40d",
+        "start_time": "2023-08-15T08:39:12.846Z",
+        "end_time": "2023-08-15T18:37:26.988Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T06:52:45.092Z",
+        "updated_at": "2023-08-16T03:43:01.518Z",
+        "car_id": "f3ff28ba-5348-491c-bdab-de0f3235d4aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab5bcd26-2f2f-41c4-995f-92b0d68d101c",
+        "start_time": "2023-08-15T21:27:35.551Z",
+        "end_time": "2023-08-16T03:20:39.376Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T09:58:20.051Z",
+        "updated_at": "2023-08-15T10:37:23.470Z",
+        "car_id": "0502e679-51ff-47ba-a7c7-1db5c8ef54bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb4b3658-437a-4438-a336-458ccb5044c0",
+        "start_time": "2023-08-16T00:14:23.619Z",
+        "end_time": "2023-08-15T23:56:32.641Z",
+        "status": "No Show",
+        "created_at": "2023-08-15T22:21:35.836Z",
+        "updated_at": "2023-08-15T13:00:52.801Z",
+        "car_id": "0502e679-51ff-47ba-a7c7-1db5c8ef54bd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "100154ca-ae42-4af5-bcff-935b6172ffbf",
+        "access_level": "Admin",
+        "created_at": "2023-08-16T05:28:05.224Z",
+        "updated_at": "2023-08-15T15:24:52.949Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1865a0d8-eed2-4ed9-9b2c-ba226e056c9d",
+        "access_level": "Manager",
+        "created_at": "2023-08-15T07:35:52.542Z",
+        "updated_at": "2023-08-15T18:41:04.771Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "044dfd6e-59ce-4ee7-a70d-ef997061290c",
+        "access_level": "Employee",
+        "created_at": "2023-08-15T23:17:52.615Z",
+        "updated_at": "2023-08-16T05:48:37.659Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e32685a-ef51-44ad-ae88-e251eb6ffb9e",
+        "access_level": "Guest",
+        "created_at": "2023-08-15T10:56:40.768Z",
+        "updated_at": "2023-08-16T00:23:44.067Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f994964d-b719-4d9c-a90d-5602aa0d7362",
+        "access_level": "Read-only",
+        "created_at": "2023-08-16T03:07:07.913Z",
+        "updated_at": "2023-08-15T11:55:05.469Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9be0e5c0-46d3-41d4-be0c-18aa96012637",
+        "email": "Ludwig_Terry82@gmail.com",
+        "firstName": "Oliver",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22071682",
+        "tenantId": null
+      },
+      {
+        "reference": "cb5d0b83-ff9e-4186-8772-a32ec8f22e9c",
+        "email": "Isai55@gmail.com",
+        "firstName": "Judah",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95483960",
+        "tenantId": null
+      },
+      {
+        "reference": "ef403ed4-bf37-4783-8743-f97107d11e09",
+        "email": "Breana_Bergnaum@gmail.com",
+        "firstName": "Daisy",
+        "lastName": "Wunsch-Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48442968",
+        "tenantId": null
+      },
+      {
+        "reference": "823f59ec-7034-48f3-9efd-0e2f9fd91fbc",
+        "email": "Shawna53@gmail.com",
+        "firstName": "Claudie",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34509115",
+        "tenantId": null
+      },
+      {
+        "reference": "e54c3d2c-e621-4aec-8a8e-1927868c9042",
+        "email": "Lauren24@gmail.com",
+        "firstName": "River",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74665099",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "b7d2b0e7-95ff-4fc7-8133-6f023e5f6cac",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-16T00:59:40.844Z",
+        "updated_at": "2023-08-16T03:43:34.955Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "87b9a459-0676-4561-85b1-68aa9e27c440",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-16T04:42:06.034Z",
+        "updated_at": "2023-08-15T12:42:09.361Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "991ed0a6-a0d8-4d07-942a-c1dd40c7859b",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-16T03:58:38.881Z",
+        "updated_at": "2023-08-16T02:22:24.174Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "f3a7b8a6-98cb-468d-baac-9c8387034c8b",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-16T02:42:49.587Z",
+        "updated_at": "2023-08-16T05:39:52.897Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "e485a8cc-cdfe-4a3e-9d12-c7a5ef2dc6ff",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-15T12:45:24.213Z",
+        "updated_at": "2023-08-15T13:09:01.435Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "a3f719a4-4394-40eb-855e-0613ae5c3a64",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 74432,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-16T04:43:30.485Z",
+        "updated_at": "2023-08-15T11:56:49.524Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b4e96d83-5854-4020-9003-7dc175c803d9",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 85543,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-15T21:10:45.934Z",
+        "updated_at": "2023-08-16T05:18:25.496Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23cfeb70-7570-405b-900c-05c912d4c5bc",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 58024,
+        "status": "In Repair",
+        "location": "Chicago",
+        "created_at": "2023-08-15T10:25:09.315Z",
+        "updated_at": "2023-08-15T11:45:02.084Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e373007e-1a42-455d-a514-93466d954e4e",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 2351,
+        "status": "Unavailable",
+        "location": "Houston",
+        "created_at": "2023-08-15T18:29:22.657Z",
+        "updated_at": "2023-08-15T15:27:29.518Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1425f561-9aeb-4c2d-b66f-b777104dda18",
+        "make": "BMW",
+        "model": "X5",
+        "year": 5991,
+        "status": "Sold",
+        "location": "Miami",
+        "created_at": "2023-08-16T00:52:01.936Z",
+        "updated_at": "2023-08-15T12:43:28.650Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "e251bb81-2812-4d1f-b7de-8ab29797391d",
+        "start_time": "2023-08-15T22:13:50.200Z",
+        "end_time": "2023-08-15T15:37:35.478Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-15T15:23:44.922Z",
+        "updated_at": "2023-08-16T02:32:55.834Z",
+        "car_id": "a3f719a4-4394-40eb-855e-0613ae5c3a64",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f90a7cc-c06f-459e-b3a3-c5cbeb444b51",
+        "start_time": "2023-08-16T03:02:51.170Z",
+        "end_time": "2023-08-15T19:55:18.670Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T02:32:08.843Z",
+        "updated_at": "2023-08-15T14:14:18.873Z",
+        "car_id": "1425f561-9aeb-4c2d-b66f-b777104dda18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02cd839c-5601-4848-b6ab-1feaa6444766",
+        "start_time": "2023-08-15T19:35:23.462Z",
+        "end_time": "2023-08-15T08:51:43.157Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T09:12:12.058Z",
+        "updated_at": "2023-08-15T12:39:07.480Z",
+        "car_id": "1425f561-9aeb-4c2d-b66f-b777104dda18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9822c26-059e-43e6-8ccb-aa725ae2780c",
+        "start_time": "2023-08-16T06:53:13.702Z",
+        "end_time": "2023-08-15T08:18:15.951Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T13:05:44.443Z",
+        "updated_at": "2023-08-15T21:47:18.292Z",
+        "car_id": "b4e96d83-5854-4020-9003-7dc175c803d9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9ff61af-3b91-4165-8e7c-03c26ef825fe",
+        "start_time": "2023-08-15T23:02:07.164Z",
+        "end_time": "2023-08-16T05:53:25.141Z",
+        "status": "No Show",
+        "created_at": "2023-08-16T03:26:58.161Z",
+        "updated_at": "2023-08-15T16:06:39.057Z",
+        "car_id": "b4e96d83-5854-4020-9003-7dc175c803d9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "340b3a9b-5617-48d0-9c62-2b1270d05c27",
+        "access_level": "Admin",
+        "created_at": "2023-08-15T21:02:59.521Z",
+        "updated_at": "2023-08-15T22:45:26.699Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97315fbb-592b-45d1-b83f-c64a365c62c2",
+        "access_level": "Manager",
+        "created_at": "2023-08-15T13:39:49.252Z",
+        "updated_at": "2023-08-15T23:58:06.644Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4a3ed3a-f2ba-4153-8e4e-e5bbee647334",
+        "access_level": "Employee",
+        "created_at": "2023-08-15T09:11:00.318Z",
+        "updated_at": "2023-08-15T23:55:44.158Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd6b0bb6-cf38-412e-846c-ba4331312a36",
+        "access_level": "Guest",
+        "created_at": "2023-08-15T23:34:43.251Z",
+        "updated_at": "2023-08-16T00:51:53.452Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d3e90b5-300d-4e21-8f22-d62976079ac6",
+        "access_level": "Limited",
+        "created_at": "2023-08-15T08:19:11.140Z",
+        "updated_at": "2023-08-15T11:03:02.784Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8a1de9f6-8e4c-41c9-8dd7-2d88f5650b74",
+        "email": "Eileen.OReilly@hotmail.com",
+        "firstName": "Jennings",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/570.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23cf6950-4229-48d8-8e5b-74a76687e7ef",
+        "email": "Hillary50@hotmail.com",
+        "firstName": "Isabel",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25406921",
+        "tenantId": null
+      },
+      {
+        "reference": "f544e6fb-71dd-4b9a-874b-e68b667dd49a",
+        "email": "Moriah_Frami72@yahoo.com",
+        "firstName": "Ressie",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21513260",
+        "tenantId": null
+      },
+      {
+        "reference": "137c50eb-fea5-4aed-8b67-bb94636845df",
+        "email": "Angie.Schmeler24@yahoo.com",
+        "firstName": "Lavada",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/689.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8acff47e-72cc-4d6d-835d-c09fed93c03b",
+        "email": "Lloyd.Gutkowski17@yahoo.com",
+        "firstName": "Xavier",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "090bbe11-366b-4111-b331-e93295009370",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-16T02:49:49.042Z",
+        "updated_at": "2023-08-15T20:21:10.355Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "d2250504-c051-4a9d-8ae4-3bd781395e7e",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-15T10:39:49.072Z",
+        "updated_at": "2023-08-15T12:46:28.746Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "79f84b02-9d78-445d-be22-c280e580e58e",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-15T10:18:21.323Z",
+        "updated_at": "2023-08-15T14:11:46.966Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "114dda56-6854-4162-a4b1-250197c11d5b",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-15T14:32:41.490Z",
+        "updated_at": "2023-08-16T06:19:10.235Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "e584685b-0a4e-45bc-8287-c8660a8736e3",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-15T08:10:53.038Z",
+        "updated_at": "2023-08-16T04:36:57.794Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "a4fe984a-03c9-4e7b-bc89-509c6f0089fa",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 80819,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-16T06:06:17.697Z",
+        "updated_at": "2023-08-15T15:22:37.727Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fb3c4c75-cda2-485b-befd-3e8ecd249fab",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 65630,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-16T00:13:17.341Z",
+        "updated_at": "2023-08-15T11:48:29.906Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fa3b8d9e-33a2-4bd9-b21f-9b49c7edf59d",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 37975,
+        "status": "In Repair",
+        "location": "Chicago",
+        "created_at": "2023-08-15T13:35:21.534Z",
+        "updated_at": "2023-08-15T18:30:56.144Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "63135756-96a7-40f5-a957-12ae2f20a999",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 93902,
+        "status": "Unavailable",
+        "location": "Houston",
+        "created_at": "2023-08-15T14:07:57.891Z",
+        "updated_at": "2023-08-15T17:49:49.845Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6dd7081b-9026-4aa9-974d-0613a4818093",
+        "make": "BMW",
+        "model": "X5",
+        "year": 24097,
+        "status": "Sold",
+        "location": "Miami",
+        "created_at": "2023-08-16T04:00:51.083Z",
+        "updated_at": "2023-08-15T16:26:23.728Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "479e79de-8257-4d67-9314-40a51e0c20ff",
+        "start_time": "2023-08-15T07:30:53.691Z",
+        "end_time": "2023-08-15T19:59:07.296Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-15T12:26:44.672Z",
+        "updated_at": "2023-08-15T09:26:29.510Z",
+        "car_id": "fa3b8d9e-33a2-4bd9-b21f-9b49c7edf59d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b5d0dbd-d7dd-4076-b219-6d205a1028fe",
+        "start_time": "2023-08-15T16:44:28.179Z",
+        "end_time": "2023-08-16T03:53:22.462Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T05:41:49.196Z",
+        "updated_at": "2023-08-15T11:00:19.403Z",
+        "car_id": "6dd7081b-9026-4aa9-974d-0613a4818093",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6d83aa8-35e6-4f3e-b606-967bcfdfab3b",
+        "start_time": "2023-08-15T16:09:29.269Z",
+        "end_time": "2023-08-15T13:07:10.647Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T05:13:36.254Z",
+        "updated_at": "2023-08-16T01:59:34.361Z",
+        "car_id": "a4fe984a-03c9-4e7b-bc89-509c6f0089fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17475a62-5f30-462b-848d-569fd03ac4f0",
+        "start_time": "2023-08-15T09:16:08.120Z",
+        "end_time": "2023-08-15T18:20:58.667Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T14:12:37.812Z",
+        "updated_at": "2023-08-15T14:14:35.464Z",
+        "car_id": "63135756-96a7-40f5-a957-12ae2f20a999",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dae78d01-0843-4bdb-9513-753c22a53ed7",
+        "start_time": "2023-08-15T23:10:10.182Z",
+        "end_time": "2023-08-16T03:32:11.248Z",
+        "status": "No Show",
+        "created_at": "2023-08-16T05:52:16.372Z",
+        "updated_at": "2023-08-15T09:54:19.164Z",
+        "car_id": "63135756-96a7-40f5-a957-12ae2f20a999",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "80774a6c-ab8f-4496-b604-3e9f55eece82",
+        "access_level": "Admin",
+        "created_at": "2023-08-16T06:39:45.593Z",
+        "updated_at": "2023-08-15T14:42:18.269Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49d745b7-7ad9-4bbe-b93a-c98a890ba116",
+        "access_level": "Manager",
+        "created_at": "2023-08-15T22:48:29.907Z",
+        "updated_at": "2023-08-15T12:09:51.985Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80e27da1-408b-403e-82d5-156185c09a8c",
+        "access_level": "Employee",
+        "created_at": "2023-08-15T08:15:16.539Z",
+        "updated_at": "2023-08-15T22:28:06.757Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "618b9044-5073-4540-a9af-33db1cdb6ba7",
+        "access_level": "Guest",
+        "created_at": "2023-08-15T18:12:53.580Z",
+        "updated_at": "2023-08-15T22:16:45.915Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b35ed8e3-8a9d-4529-b60f-45bdfa8e8541",
+        "access_level": "Limited",
+        "created_at": "2023-08-15T08:58:56.365Z",
+        "updated_at": "2023-08-15T11:50:27.927Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4788626d-48b8-4728-8327-98486af3cf53",
+        "email": "Rickey_Quigley7@yahoo.com",
+        "firstName": "Ardella",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/261.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c71f69a7-1a98-4851-ac9b-c51eb4859f8f",
+        "email": "Guillermo_Emmerich@hotmail.com",
+        "firstName": "Duane",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/810.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e3c8e49f-711a-4c80-8b3e-adf368622797",
+        "email": "Mercedes56@hotmail.com",
+        "firstName": "Allene",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/515.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7fff2c4b-178f-47fe-933f-80447927cc53",
+        "email": "Kari10@yahoo.com",
+        "firstName": "Carter",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/594688",
+        "tenantId": null
+      },
+      {
+        "reference": "43b2eb0a-3f4e-498b-a4bc-bc2a15627f6e",
+        "email": "Kevin75@hotmail.com",
+        "firstName": "Rudolph",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "7ac29462-f172-4389-9d55-0a90f817c658",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-15T15:05:12.551Z",
+        "updated_at": "2023-08-16T06:03:25.091Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "ad51f8bf-2ef3-41b7-b0d1-22c50a6ccd1c",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-15T19:20:27.457Z",
+        "updated_at": "2023-08-15T18:38:33.963Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "044dfc34-4461-4bef-8ea0-8486d7252ac8",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-16T00:24:02.012Z",
+        "updated_at": "2023-08-16T06:45:54.112Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "e498a7ca-f32a-4fe3-8737-29621dd00de8",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-15T16:34:39.478Z",
+        "updated_at": "2023-08-16T04:11:38.845Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "bc0a0cb3-8979-48a3-86ed-1baa19313485",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-15T23:11:38.740Z",
+        "updated_at": "2023-08-15T23:37:00.302Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "0a872c3e-e9b8-4927-91b8-1faa83f776bc",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 64222,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-15T09:41:04.459Z",
+        "updated_at": "2023-08-16T06:33:05.993Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "81f665c9-522f-4a59-812b-270dccdcc224",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 46830,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-15T21:12:18.525Z",
+        "updated_at": "2023-08-16T02:57:28.901Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f9e8f62d-dbdc-4c75-a987-52e83287172c",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 46876,
+        "status": "In Repair",
+        "location": "Chicago",
+        "created_at": "2023-08-16T04:39:23.850Z",
+        "updated_at": "2023-08-15T11:28:11.620Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c7654714-719b-4d40-99c9-56cc9e3a0198",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 18846,
+        "status": "Rented",
+        "location": "Houston",
+        "created_at": "2023-08-15T18:34:09.540Z",
+        "updated_at": "2023-08-15T07:29:36.081Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d5fc5e91-99fc-450d-81d0-8ac6eb2c397d",
+        "make": "BMW",
+        "model": "X5",
+        "year": 92571,
+        "status": "Sold",
+        "location": "Miami",
+        "created_at": "2023-08-16T00:11:43.754Z",
+        "updated_at": "2023-08-15T23:16:30.053Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6e1b1053-2bad-4b49-b3fe-dbded7f2a01b",
+        "start_time": "2023-08-15T07:36:04.519Z",
+        "end_time": "2023-08-16T03:51:09.032Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-16T05:15:12.909Z",
+        "updated_at": "2023-08-15T16:37:44.405Z",
+        "car_id": "81f665c9-522f-4a59-812b-270dccdcc224",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e14af269-2c17-471b-824b-3085e2876c9d",
+        "start_time": "2023-08-15T21:13:01.464Z",
+        "end_time": "2023-08-16T05:40:41.424Z",
+        "status": "Pending",
+        "created_at": "2023-08-15T11:27:00.392Z",
+        "updated_at": "2023-08-15T22:55:11.194Z",
+        "car_id": "c7654714-719b-4d40-99c9-56cc9e3a0198",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97fbdf71-e1c0-49c1-96e2-de596d6d95b0",
+        "start_time": "2023-08-16T06:34:45.374Z",
+        "end_time": "2023-08-15T12:15:30.995Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T13:59:46.476Z",
+        "updated_at": "2023-08-16T06:36:04.947Z",
+        "car_id": "d5fc5e91-99fc-450d-81d0-8ac6eb2c397d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "067c35b7-044b-4609-b374-16bf583d0555",
+        "start_time": "2023-08-15T09:00:08.798Z",
+        "end_time": "2023-08-16T03:37:49.366Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T10:24:08.600Z",
+        "updated_at": "2023-08-16T02:03:44.137Z",
+        "car_id": "d5fc5e91-99fc-450d-81d0-8ac6eb2c397d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ced03667-ed0b-4370-aacb-7ce46108731d",
+        "start_time": "2023-08-16T02:48:25.094Z",
+        "end_time": "2023-08-16T01:44:38.265Z",
+        "status": "No Show",
+        "created_at": "2023-08-15T23:14:03.800Z",
+        "updated_at": "2023-08-16T00:00:03.611Z",
+        "car_id": "c7654714-719b-4d40-99c9-56cc9e3a0198",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "1674f029-8ae6-48e9-a6a9-e3911ede4344",
+        "access_level": "Admin",
+        "created_at": "2023-08-15T14:31:30.845Z",
+        "updated_at": "2023-08-15T20:36:52.761Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba5c1c32-b303-40f4-9bf9-7f90bc8a2b10",
+        "access_level": "Manager",
+        "created_at": "2023-08-16T03:51:23.594Z",
+        "updated_at": "2023-08-15T22:56:08.267Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a10e69d3-a00a-46c0-935a-757be5192648",
+        "access_level": "Employee",
+        "created_at": "2023-08-16T03:19:18.193Z",
+        "updated_at": "2023-08-15T13:57:01.182Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29bcbae0-421b-4a8f-9c97-df9eacff8a10",
+        "access_level": "Guest",
+        "created_at": "2023-08-15T22:24:18.662Z",
+        "updated_at": "2023-08-15T14:31:06.940Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf40dfd6-9d1f-4fe9-9fbd-932fc7ff5a4e",
+        "access_level": "Limited",
+        "created_at": "2023-08-16T00:34:06.425Z",
+        "updated_at": "2023-08-15T23:16:49.316Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e7208cc0-ab14-4cf1-9bde-882e8c4842a6",
+        "email": "Lavern34@gmail.com",
+        "firstName": "Alia",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22388316",
+        "tenantId": null
+      },
+      {
+        "reference": "0ab02ed8-a97d-4542-8d31-fdb0a0813573",
+        "email": "Foster.Borer69@yahoo.com",
+        "firstName": "Dax",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/856.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc98f580-6a05-4f8f-a697-b08b78d9b54c",
+        "email": "Karlie_Ebert@hotmail.com",
+        "firstName": "Janiya",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54069787",
+        "tenantId": null
+      },
+      {
+        "reference": "55227bb0-f9c3-4fa7-b849-0cc307ff39e5",
+        "email": "Arne35@hotmail.com",
+        "firstName": "Eusebio",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94857661",
+        "tenantId": null
+      },
+      {
+        "reference": "d86fe7ef-5bd7-4699-82e9-f95b578a851a",
+        "email": "Juvenal_Larkin96@hotmail.com",
+        "firstName": "Randal",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/498.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "03605268-a1fd-44e1-b817-ce2a66776dc2",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-15T23:37:43.599Z",
+        "updated_at": "2023-08-16T02:02:32.838Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "de50c572-fad5-44cd-a40b-2d9f7878ab22",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-15T20:34:56.346Z",
+        "updated_at": "2023-08-15T11:30:33.455Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "3a218ec3-3443-48da-abd5-12abcb8239eb",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-15T16:35:03.133Z",
+        "updated_at": "2023-08-15T16:56:57.414Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "3609535b-a07c-4070-bdee-c1b1cfca1c7c",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-16T05:52:22.441Z",
+        "updated_at": "2023-08-16T06:54:42.819Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "7f600d8c-5f89-4853-9f21-acdf6b4c6719",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-15T22:55:55.799Z",
+        "updated_at": "2023-08-15T11:19:14.505Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "1bbb02cb-b45f-48b8-8930-b19c6454befd",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 99246,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-16T06:13:43.017Z",
+        "updated_at": "2023-08-15T08:03:53.851Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "344c1c43-ab45-478c-9ef8-e296f3106df7",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 51738,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-16T01:12:07.227Z",
+        "updated_at": "2023-08-16T07:07:08.186Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4a2ceb32-089d-4de5-ae9e-f2a958f0a7cf",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 18339,
+        "status": "In Repair",
+        "location": "Chicago",
+        "created_at": "2023-08-15T13:20:15.712Z",
+        "updated_at": "2023-08-15T13:51:33.976Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c20c9319-409c-4bc5-bb75-42a0f48e0209",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 99512,
+        "status": "Unavailable",
+        "location": "Houston",
+        "created_at": "2023-08-16T00:56:46.264Z",
+        "updated_at": "2023-08-15T13:54:53.014Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "662a41c3-e51b-4fdb-8103-a02303e40ead",
+        "make": "BMW",
+        "model": "X5",
+        "year": 40080,
+        "status": "Sold",
+        "location": "Miami",
+        "created_at": "2023-08-15T14:49:17.027Z",
+        "updated_at": "2023-08-15T19:28:37.965Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "3a6040bb-cd06-4a94-aa76-b07be36db48a",
+        "start_time": "2023-08-15T17:02:01.632Z",
+        "end_time": "2023-08-16T02:08:41.290Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-16T04:29:45.309Z",
+        "updated_at": "2023-08-15T16:01:33.113Z",
+        "car_id": "662a41c3-e51b-4fdb-8103-a02303e40ead",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "548401ac-4e7d-4d9c-9c4b-11b3da31868d",
+        "start_time": "2023-08-15T14:41:15.638Z",
+        "end_time": "2023-08-16T06:32:32.673Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T06:04:43.183Z",
+        "updated_at": "2023-08-15T21:30:55.517Z",
+        "car_id": "4a2ceb32-089d-4de5-ae9e-f2a958f0a7cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10bac971-3deb-481e-941d-485e5a9927f2",
+        "start_time": "2023-08-16T07:07:13.057Z",
+        "end_time": "2023-08-15T13:46:54.180Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T10:34:19.112Z",
+        "updated_at": "2023-08-16T05:17:01.729Z",
+        "car_id": "662a41c3-e51b-4fdb-8103-a02303e40ead",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "450d00c0-f004-478b-b4d4-09146ff23e14",
+        "start_time": "2023-08-16T03:49:17.948Z",
+        "end_time": "2023-08-15T09:35:51.222Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T11:10:58.993Z",
+        "updated_at": "2023-08-16T00:26:58.102Z",
+        "car_id": "c20c9319-409c-4bc5-bb75-42a0f48e0209",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64ff1d3e-7502-48c9-98ae-0575c315a1ad",
+        "start_time": "2023-08-15T11:59:14.039Z",
+        "end_time": "2023-08-16T03:11:05.621Z",
+        "status": "No Show",
+        "created_at": "2023-08-16T04:22:41.646Z",
+        "updated_at": "2023-08-15T08:23:08.635Z",
+        "car_id": "1bbb02cb-b45f-48b8-8930-b19c6454befd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "c1eef127-7081-4cce-80ec-af33f4939d6e",
+        "access_level": "Admin",
+        "created_at": "2023-08-16T04:47:23.938Z",
+        "updated_at": "2023-08-15T08:39:06.885Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8571607b-3b31-4dcb-ad2d-75e5cac51f59",
+        "access_level": "Manager",
+        "created_at": "2023-08-15T11:08:13.487Z",
+        "updated_at": "2023-08-15T09:50:26.466Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acdccbe5-07ff-4d43-ad2e-cff221963e9d",
+        "access_level": "Employee",
+        "created_at": "2023-08-15T22:46:46.984Z",
+        "updated_at": "2023-08-16T05:46:43.786Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a126859c-38f5-42d6-a7f8-774fa96207ed",
+        "access_level": "Guest",
+        "created_at": "2023-08-15T17:06:10.019Z",
+        "updated_at": "2023-08-15T13:30:41.419Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d952a6a-8655-4703-8974-f6bc127bc0b9",
+        "access_level": "Limited",
+        "created_at": "2023-08-15T18:31:24.434Z",
+        "updated_at": "2023-08-15T15:02:20.194Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "759834b4-16d8-4fad-97d1-d6489728b5a9",
+        "email": "Amiya26@hotmail.com",
+        "firstName": "Walker",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46964891",
+        "tenantId": null
+      },
+      {
+        "reference": "c471b810-0586-481c-bb5a-0fddf21df893",
+        "email": "Adella.Zieme93@hotmail.com",
+        "firstName": "Katelynn",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15588103",
+        "tenantId": null
+      },
+      {
+        "reference": "76a3f6f5-78c0-403c-8dbf-3297a59e36cf",
+        "email": "Daryl20@yahoo.com",
+        "firstName": "Carissa",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/133.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8224228b-89fe-4d80-9f12-87a01ead6241",
+        "email": "Sydney65@gmail.com",
+        "firstName": "Roy",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90924385",
+        "tenantId": null
+      },
+      {
+        "reference": "9d6b74b7-9363-46e2-ad31-11ab0221d260",
+        "email": "Tomasa97@yahoo.com",
+        "firstName": "Karianne",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14078655",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "6306050f-4040-46ea-89d7-2390ac197e35",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-15T16:12:10.210Z",
+        "updated_at": "2023-08-15T15:25:09.883Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "cf1d734c-50f4-4568-8670-9d43f9fd5746",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-15T16:30:19.028Z",
+        "updated_at": "2023-08-15T08:44:43.160Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "73dff2bf-d13b-4aae-9b1b-5fd135efefba",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-15T15:13:51.417Z",
+        "updated_at": "2023-08-15T17:32:22.962Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "23d22bd1-0d74-4f69-bcae-1c007eed3da9",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-16T06:30:58.234Z",
+        "updated_at": "2023-08-15T11:26:04.757Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "507eb054-eb52-4f63-9afb-955965c1e146",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-15T12:36:26.011Z",
+        "updated_at": "2023-08-15T21:14:13.284Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "cbf5cec3-3b57-41d4-ae5a-4567adfb1d52",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 48798,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-16T01:46:58.757Z",
+        "updated_at": "2023-08-16T03:29:48.297Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f0005f81-0dfe-430a-a7ed-17e572537f89",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 4455,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-15T16:12:14.873Z",
+        "updated_at": "2023-08-16T03:22:18.775Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "131aa503-d76c-413d-a137-b352f4428809",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 96152,
+        "status": "In Repair",
+        "location": "Chicago",
+        "created_at": "2023-08-15T22:51:13.835Z",
+        "updated_at": "2023-08-16T02:21:15.943Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6cebda23-2729-4147-8f9b-cbf46829fce1",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 74303,
+        "status": "Unavailable",
+        "location": "Houston",
+        "created_at": "2023-08-15T08:58:31.204Z",
+        "updated_at": "2023-08-15T21:44:34.923Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "320d2ada-d92f-4a65-9f49-8725c0fdc338",
+        "make": "BMW",
+        "model": "X5",
+        "year": 48468,
+        "status": "Sold",
+        "location": "Miami",
+        "created_at": "2023-08-16T05:13:18.851Z",
+        "updated_at": "2023-08-16T04:58:21.426Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "8e96d16b-aa56-447f-a9c9-ea3bc754f90b",
+        "start_time": "2023-08-15T08:57:47.715Z",
+        "end_time": "2023-08-15T20:32:30.294Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-15T21:06:31.762Z",
+        "updated_at": "2023-08-15T11:25:10.216Z",
+        "car_id": "f0005f81-0dfe-430a-a7ed-17e572537f89",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbd87d0b-2a87-496a-aacc-6271e8af26e9",
+        "start_time": "2023-08-15T10:55:45.874Z",
+        "end_time": "2023-08-16T02:51:14.739Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T01:28:07.996Z",
+        "updated_at": "2023-08-16T07:02:22.593Z",
+        "car_id": "6cebda23-2729-4147-8f9b-cbf46829fce1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95335104-f4c3-435b-98a2-25da3459345e",
+        "start_time": "2023-08-15T20:32:09.932Z",
+        "end_time": "2023-08-16T03:01:18.086Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T12:43:58.510Z",
+        "updated_at": "2023-08-15T07:37:31.048Z",
+        "car_id": "cbf5cec3-3b57-41d4-ae5a-4567adfb1d52",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbbef9e6-843a-4110-930a-23543b167fa2",
+        "start_time": "2023-08-16T01:06:50.559Z",
+        "end_time": "2023-08-15T21:39:37.012Z",
+        "status": "Completed",
+        "created_at": "2023-08-16T05:50:36.852Z",
+        "updated_at": "2023-08-15T18:37:49.062Z",
+        "car_id": "131aa503-d76c-413d-a137-b352f4428809",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ccbab0c-252b-46cf-953f-1c11312cf239",
+        "start_time": "2023-08-15T09:45:27.155Z",
+        "end_time": "2023-08-16T00:31:26.896Z",
+        "status": "No Show",
+        "created_at": "2023-08-15T23:59:43.370Z",
+        "updated_at": "2023-08-15T07:55:57.780Z",
+        "car_id": "cbf5cec3-3b57-41d4-ae5a-4567adfb1d52",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "f9d6c2ac-e53d-468b-8b86-f09b34db6af8",
+        "access_level": "Admin",
+        "created_at": "2023-08-15T13:16:58.646Z",
+        "updated_at": "2023-08-15T18:36:06.657Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fba705e-6656-46ec-ba48-75e739a19f9c",
+        "access_level": "Manager",
+        "created_at": "2023-08-16T05:11:58.644Z",
+        "updated_at": "2023-08-15T08:40:01.451Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "776f5f83-24ed-4db5-bf2d-1ef81ffa23a9",
+        "access_level": "Employee",
+        "created_at": "2023-08-15T13:01:04.313Z",
+        "updated_at": "2023-08-15T15:54:23.466Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aee449f8-237c-4d85-8036-990c82e7fc0a",
+        "access_level": "Guest",
+        "created_at": "2023-08-15T07:16:55.842Z",
+        "updated_at": "2023-08-15T09:28:45.267Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8efac5b2-b7bf-4ffc-a923-094deceda5cf",
+        "access_level": "Limited",
+        "created_at": "2023-08-15T13:13:25.623Z",
+        "updated_at": "2023-08-16T02:37:49.441Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dcc0a5a3-df56-4cf5-86a2-1dd2046597b9",
+        "email": "Evert.Douglas18@gmail.com",
+        "firstName": "Zelda",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24385070",
+        "tenantId": null
+      },
+      {
+        "reference": "e1356232-5aa1-45ec-8b26-35fe741292bf",
+        "email": "Janie21@yahoo.com",
+        "firstName": "Queenie",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/290.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e615c202-3424-4165-b86f-4859063c1720",
+        "email": "Jett.Hessel@yahoo.com",
+        "firstName": "Amaya",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/608.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b53dbcc-3ef0-4c37-87fa-7daff8b82a0e",
+        "email": "Price8@gmail.com",
+        "firstName": "Leann",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/334.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "07f347a6-bf52-45c2-9d92-78ab444ee864",
+        "email": "Kariane.Steuber84@yahoo.com",
+        "firstName": "Joel",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34928431",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "7b895ccb-f7b8-4a23-a812-f9d7dc501a7e",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-15T20:17:35.023Z",
+        "updated_at": "2023-08-15T14:17:40.101Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "153b30e4-7415-4f1b-a7e8-e0e64c4feb61",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-15T18:06:19.372Z",
+        "updated_at": "2023-08-15T10:16:31.802Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "c2f7256a-b80d-418a-8288-014ca002c0f9",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-15T20:47:04.172Z",
+        "updated_at": "2023-08-15T19:06:47.187Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "b0758197-d400-4544-a680-0201550ac01e",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-16T00:44:52.652Z",
+        "updated_at": "2023-08-15T12:00:06.786Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "8d237e5a-357f-4144-beb0-0253a972aa24",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-16T05:51:09.091Z",
+        "updated_at": "2023-08-16T01:09:14.333Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "2c82bbfa-2e1d-4fcd-aaa1-5286b7d8bda5",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 31960,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-15T14:46:45.582Z",
+        "updated_at": "2023-08-15T20:18:28.915Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "922dce3f-1dde-4aa8-a314-49b610a83f81",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 15640,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-16T05:51:42.267Z",
+        "updated_at": "2023-08-15T21:20:37.141Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "36cd13d8-444b-423c-a59f-bce85fd8be92",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 5851,
+        "status": "In Repair",
+        "location": "Chicago",
+        "created_at": "2023-08-16T04:06:55.421Z",
+        "updated_at": "2023-08-15T18:24:58.422Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "92986e71-9440-4112-ab90-53a7891f61eb",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 89238,
+        "status": "Unavailable",
+        "location": "Houston",
+        "created_at": "2023-08-16T00:48:00.438Z",
+        "updated_at": "2023-08-15T20:54:26.085Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "db1c9eb5-fd17-4c12-93d7-9eb909e42c4f",
+        "make": "BMW",
+        "model": "X5",
+        "year": 10861,
+        "status": "Sold",
+        "location": "Miami",
+        "created_at": "2023-08-15T15:16:01.099Z",
+        "updated_at": "2023-08-16T00:30:02.528Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "53a62a29-31cd-4dac-9653-6eeb56a82ce5",
+        "start_time": "2023-08-15T11:26:49.198Z",
+        "end_time": "2023-08-16T07:12:22.089Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-16T03:34:21.087Z",
+        "updated_at": "2023-08-16T04:46:18.264Z",
+        "car_id": "922dce3f-1dde-4aa8-a314-49b610a83f81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebfdf195-c3ce-4d84-9e50-480d6eb1620f",
+        "start_time": "2023-08-16T06:25:37.383Z",
+        "end_time": "2023-08-16T05:02:21.204Z",
+        "status": "Pending",
+        "created_at": "2023-08-15T21:48:50.334Z",
+        "updated_at": "2023-08-15T08:55:57.100Z",
+        "car_id": "36cd13d8-444b-423c-a59f-bce85fd8be92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c870f49c-1bee-4522-b704-77326c75fc02",
+        "start_time": "2023-08-15T08:04:48.005Z",
+        "end_time": "2023-08-15T16:48:10.809Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T09:03:17.380Z",
+        "updated_at": "2023-08-15T14:47:17.031Z",
+        "car_id": "2c82bbfa-2e1d-4fcd-aaa1-5286b7d8bda5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99e20343-4998-49b6-8e61-3e1f3cbf0532",
+        "start_time": "2023-08-15T20:53:49.528Z",
+        "end_time": "2023-08-15T20:00:57.991Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T20:27:34.849Z",
+        "updated_at": "2023-08-15T12:25:38.815Z",
+        "car_id": "92986e71-9440-4112-ab90-53a7891f61eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b6fb271-75a7-4035-a331-5f81cc0fe82f",
+        "start_time": "2023-08-15T12:47:52.763Z",
+        "end_time": "2023-08-16T03:02:38.733Z",
+        "status": "No Show",
+        "created_at": "2023-08-16T03:03:35.653Z",
+        "updated_at": "2023-08-15T14:35:33.356Z",
+        "car_id": "922dce3f-1dde-4aa8-a314-49b610a83f81",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "5483bc21-cbba-4ff7-add9-4c6d472559cb",
+        "access_level": "Admin",
+        "created_at": "2023-08-16T00:03:02.423Z",
+        "updated_at": "2023-08-15T11:39:13.052Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "014ca2cd-919a-49cf-9e00-5f660ae4a214",
+        "access_level": "Manager",
+        "created_at": "2023-08-15T16:16:00.903Z",
+        "updated_at": "2023-08-16T03:57:51.981Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d3a1818-1d29-48ef-ae75-af57e3742370",
+        "access_level": "Employee",
+        "created_at": "2023-08-16T05:17:21.532Z",
+        "updated_at": "2023-08-15T17:30:37.721Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "891ca8a6-c342-4002-8ba3-6120f992d322",
+        "access_level": "Guest",
+        "created_at": "2023-08-16T03:08:43.190Z",
+        "updated_at": "2023-08-15T09:43:28.994Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95161aba-7e8b-4994-868f-68397fad0c1a",
+        "access_level": "Limited",
+        "created_at": "2023-08-16T02:07:25.658Z",
+        "updated_at": "2023-08-15T11:17:45.923Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8101b04c-c8e7-4a55-9fd7-86f4fe68f5a2",
+        "email": "Lois_Graham94@yahoo.com",
+        "firstName": "Marshall",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66468178",
+        "tenantId": null
+      },
+      {
+        "reference": "2ad1ebf3-c867-4310-b4c9-7c2c3c9f1a25",
+        "email": "Marianne_Stamm@yahoo.com",
+        "firstName": "Philip",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72807391",
+        "tenantId": null
+      },
+      {
+        "reference": "35d9027d-c8ca-4f25-8403-f7b66d202922",
+        "email": "Abigale_Huels@gmail.com",
+        "firstName": "Dillan",
+        "lastName": "Dietrich-Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43744790",
+        "tenantId": null
+      },
+      {
+        "reference": "84a5f4b6-1c9f-4372-bf2e-524faec35951",
+        "email": "Albin_Aufderhar@yahoo.com",
+        "firstName": "Zoila",
+        "lastName": "Ruecker-Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/179.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ed833bc-dbe7-48c1-90e8-c8cb1a168ab3",
+        "email": "Stefan_Luettgen@gmail.com",
+        "firstName": "Violette",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57836918",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "b6baffd3-c5b8-45b1-bd9e-7fc598e5e26b",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-15T08:37:50.634Z",
+        "updated_at": "2023-08-15T22:37:49.248Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "c72f3967-8d1a-4a63-bc42-af08bd5d89de",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-15T10:35:26.499Z",
+        "updated_at": "2023-08-15T10:16:31.163Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "f06d30cf-a558-4a48-b4b5-c95e9b2429eb",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-15T13:13:52.625Z",
+        "updated_at": "2023-08-15T21:23:28.631Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "e4395c6f-b898-4376-a70c-81324dee298d",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-15T18:15:41.320Z",
+        "updated_at": "2023-08-16T01:24:38.717Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "920941ee-2975-4d57-9804-b1a266ac8c4a",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-15T21:46:16.721Z",
+        "updated_at": "2023-08-15T14:14:25.828Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "d4ec7ac3-cd07-4800-909e-5c3fc2dadd2f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 50511,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-16T04:13:03.039Z",
+        "updated_at": "2023-08-16T04:32:44.662Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0d2a0ec4-a6f6-4c6d-b5d7-d1cd36cfc8a6",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 7652,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-15T20:47:23.852Z",
+        "updated_at": "2023-08-16T00:58:28.847Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e5b08d31-71a7-4670-8572-b9b8950a33c7",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 39015,
+        "status": "In Repair",
+        "location": "Chicago",
+        "created_at": "2023-08-15T13:36:21.578Z",
+        "updated_at": "2023-08-15T15:35:15.250Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f08f0165-53fd-4fa9-9133-e1e5441f2d31",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 80270,
+        "status": "Rented",
+        "location": "Houston",
+        "created_at": "2023-08-16T06:15:53.616Z",
+        "updated_at": "2023-08-15T19:36:33.927Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "052c0d3e-73c1-452e-a356-20e28a90af5b",
+        "make": "BMW",
+        "model": "X5",
+        "year": 86016,
+        "status": "Out of Service",
+        "location": "Miami",
+        "created_at": "2023-08-15T20:44:48.741Z",
+        "updated_at": "2023-08-16T00:49:17.846Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1ef13e23-7a61-4ae5-9f30-753627d73016",
+        "start_time": "2023-08-15T08:24:25.097Z",
+        "end_time": "2023-08-16T01:24:46.157Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-15T12:14:14.309Z",
+        "updated_at": "2023-08-15T14:45:24.333Z",
+        "car_id": "d4ec7ac3-cd07-4800-909e-5c3fc2dadd2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f99c7b35-c287-4443-a48d-5247f2dd6de2",
+        "start_time": "2023-08-15T18:43:09.863Z",
+        "end_time": "2023-08-15T08:53:02.219Z",
+        "status": "Pending",
+        "created_at": "2023-08-15T17:37:11.141Z",
+        "updated_at": "2023-08-16T07:07:02.212Z",
+        "car_id": "052c0d3e-73c1-452e-a356-20e28a90af5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a563b5fa-608c-43fb-9bc2-672c4695256a",
+        "start_time": "2023-08-16T00:48:44.066Z",
+        "end_time": "2023-08-15T19:06:51.317Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T00:32:24.016Z",
+        "updated_at": "2023-08-16T02:19:54.416Z",
+        "car_id": "e5b08d31-71a7-4670-8572-b9b8950a33c7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a525b680-23a7-4300-9467-2b4b976723ad",
+        "start_time": "2023-08-15T11:36:16.745Z",
+        "end_time": "2023-08-15T18:14:35.425Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T16:23:49.290Z",
+        "updated_at": "2023-08-15T10:02:21.747Z",
+        "car_id": "052c0d3e-73c1-452e-a356-20e28a90af5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a75a264-af02-4cfd-a4a1-70a0fb92af1c",
+        "start_time": "2023-08-15T08:51:42.878Z",
+        "end_time": "2023-08-15T13:12:07.323Z",
+        "status": "No Show",
+        "created_at": "2023-08-15T18:25:12.453Z",
+        "updated_at": "2023-08-15T19:17:28.399Z",
+        "car_id": "e5b08d31-71a7-4670-8572-b9b8950a33c7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "c44bccfd-157f-47bb-a7c2-05db5473d1ff",
+        "access_level": "Admin",
+        "created_at": "2023-08-15T23:47:33.962Z",
+        "updated_at": "2023-08-15T20:45:55.997Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80e931f6-bde2-478d-bfc3-8afccc8e414b",
+        "access_level": "Manager",
+        "created_at": "2023-08-15T14:05:02.560Z",
+        "updated_at": "2023-08-15T10:30:12.154Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30205a93-5143-4930-8609-39a36beae717",
+        "access_level": "Employee",
+        "created_at": "2023-08-16T06:53:11.671Z",
+        "updated_at": "2023-08-16T03:12:23.980Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7144f31a-dbf3-4d5f-8be7-e815318f2e0d",
+        "access_level": "Guest",
+        "created_at": "2023-08-15T19:13:43.372Z",
+        "updated_at": "2023-08-15T23:27:48.446Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53c0e319-65c3-4fd6-9e22-e6af50cf224a",
+        "access_level": "Limited",
+        "created_at": "2023-08-16T01:28:41.150Z",
+        "updated_at": "2023-08-15T17:50:31.170Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a16de355-bde8-4b22-a094-b965e62168d5",
+        "email": "Jazlyn79@yahoo.com",
+        "firstName": "Angelica",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/707.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e9edf304-328f-4a36-b363-85351bea67fd",
+        "email": "Trace.Russel@hotmail.com",
+        "firstName": "Rafael",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53019339",
+        "tenantId": null
+      },
+      {
+        "reference": "217e7006-7e6b-4429-a1a4-4a488a651ced",
+        "email": "Federico79@hotmail.com",
+        "firstName": "Edwardo",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23044931",
+        "tenantId": null
+      },
+      {
+        "reference": "4bbe293e-8568-4faf-b013-f47f0a15d318",
+        "email": "Bradly_Beier49@hotmail.com",
+        "firstName": "Judy",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/356.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b4c0e29-6da0-453c-ac65-bc1d4097fbdc",
+        "email": "Beth_Kuhlman@yahoo.com",
+        "firstName": "Jaida",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/985.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "82f534a1-10f3-4d7f-8bd0-9d1a9f289feb",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-15T18:31:06.622Z",
+        "updated_at": "2023-08-15T07:52:26.005Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "9513ab90-a5f6-4a57-90bb-287b896c89a1",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-16T04:04:53.783Z",
+        "updated_at": "2023-08-16T01:45:34.421Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "4d117ac8-8452-4023-8c7e-4e3d11e3f231",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-15T16:10:50.947Z",
+        "updated_at": "2023-08-15T20:49:32.406Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "3ccf37cf-4437-4036-ae2a-550f209cdd9f",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-15T09:27:46.504Z",
+        "updated_at": "2023-08-15T18:37:43.851Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "91a026a6-11aa-4146-9d4f-36524866b4e6",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-15T12:17:34.522Z",
+        "updated_at": "2023-08-15T16:59:50.011Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "1d07eee4-9d78-4dc4-8f97-b70a31da850f",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 31607,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-15T15:04:40.425Z",
+        "updated_at": "2023-08-15T20:26:13.015Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "17fc65ba-f2ab-462f-aa54-b6f70fa809d3",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 48506,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-15T20:27:17.545Z",
+        "updated_at": "2023-08-16T03:34:42.562Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3cc02dbd-a0ec-4734-ac99-b724ea415c3f",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 65228,
+        "status": "In Repair",
+        "location": "Chicago",
+        "created_at": "2023-08-15T07:34:13.091Z",
+        "updated_at": "2023-08-15T16:26:28.932Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8fe2411d-6fa5-4b69-b958-2b6a8a71cd57",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 36852,
+        "status": "Unavailable",
+        "location": "Houston",
+        "created_at": "2023-08-16T02:05:51.983Z",
+        "updated_at": "2023-08-16T02:15:43.549Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4d686900-e0f0-4eba-a652-b47111bb4d53",
+        "make": "BMW",
+        "model": "X5",
+        "year": 41905,
+        "status": "Sold",
+        "location": "Miami",
+        "created_at": "2023-08-16T07:09:50.839Z",
+        "updated_at": "2023-08-15T19:27:19.007Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1ef0b280-b1f1-4612-b0b0-79d222138502",
+        "start_time": "2023-08-16T05:26:45.336Z",
+        "end_time": "2023-08-15T23:41:19.328Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-15T14:46:45.393Z",
+        "updated_at": "2023-08-15T17:45:40.482Z",
+        "car_id": "17fc65ba-f2ab-462f-aa54-b6f70fa809d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "723b267c-d4e9-4dd9-870f-176a83f950d9",
+        "start_time": "2023-08-15T17:51:25.158Z",
+        "end_time": "2023-08-15T14:11:13.017Z",
+        "status": "Pending",
+        "created_at": "2023-08-16T05:05:59.012Z",
+        "updated_at": "2023-08-16T06:29:13.395Z",
+        "car_id": "4d686900-e0f0-4eba-a652-b47111bb4d53",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51d9ee23-6da7-4de7-9aa3-73ea24d16b46",
+        "start_time": "2023-08-15T22:29:34.424Z",
+        "end_time": "2023-08-15T12:44:05.427Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-15T23:35:15.210Z",
+        "updated_at": "2023-08-15T19:07:17.950Z",
+        "car_id": "17fc65ba-f2ab-462f-aa54-b6f70fa809d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "346571f5-1e13-44fe-b05c-34e067645df7",
+        "start_time": "2023-08-15T23:53:53.216Z",
+        "end_time": "2023-08-16T02:13:29.142Z",
+        "status": "Completed",
+        "created_at": "2023-08-15T11:21:18.031Z",
+        "updated_at": "2023-08-16T05:12:54.074Z",
+        "car_id": "17fc65ba-f2ab-462f-aa54-b6f70fa809d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f296965-f05c-4d25-bf46-25abf2a3689f",
+        "start_time": "2023-08-15T17:39:42.688Z",
+        "end_time": "2023-08-15T07:34:58.411Z",
+        "status": "No Show",
+        "created_at": "2023-08-15T09:16:04.542Z",
+        "updated_at": "2023-08-16T01:36:10.644Z",
+        "car_id": "4d686900-e0f0-4eba-a652-b47111bb4d53",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "1d8c8bc1-28d4-4701-980e-028427f866fe",
+        "access_level": "Admin",
+        "created_at": "2023-08-16T05:13:59.547Z",
+        "updated_at": "2023-08-15T09:51:12.067Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5f4e1e7-d772-477c-9c24-5fb5b546d426",
+        "access_level": "Manager",
+        "created_at": "2023-08-15T10:23:16.335Z",
+        "updated_at": "2023-08-16T00:34:10.509Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7e76706-a1cc-4bdd-bba2-3c2c8aadf880",
+        "access_level": "Employee",
+        "created_at": "2023-08-15T17:11:16.674Z",
+        "updated_at": "2023-08-16T01:51:33.207Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "927c2bf9-7ba2-4540-b7c6-46f059c76604",
+        "access_level": "Guest",
+        "created_at": "2023-08-15T15:02:52.842Z",
+        "updated_at": "2023-08-16T05:38:59.814Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c8ee958-5403-40f9-b623-2259421b0632",
+        "access_level": "Limited",
+        "created_at": "2023-08-15T12:47:49.189Z",
+        "updated_at": "2023-08-16T00:03:52.166Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3d59a85b-7a49-47a7-8041-d83dbc564dda",
+        "email": "Stuart.Collier@hotmail.com",
+        "firstName": "Faustino",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/887.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "faf9e4df-cdf6-41b3-b063-5b487d6bf25a",
+        "email": "Dexter61@gmail.com",
+        "firstName": "Jevon",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59359535",
+        "tenantId": null
+      },
+      {
+        "reference": "3c30e731-103c-498e-a74d-c248bfcf2d2a",
+        "email": "Remington_Hansen@gmail.com",
+        "firstName": "Maxime",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20938169",
+        "tenantId": null
+      },
+      {
+        "reference": "af8d0333-959c-4bc3-9bbb-f4438e4820a5",
+        "email": "Trystan_Cassin3@hotmail.com",
+        "firstName": "Buddy",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30070955",
+        "tenantId": null
+      },
+      {
+        "reference": "4f115b2a-f78a-4c64-b65e-47d088f8567e",
+        "email": "Jairo_White11@hotmail.com",
+        "firstName": "Stacy",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/237.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "invitation": [
+      {
+        "id": "ef1af3fd-7095-449d-973c-fa310510cfa4",
+        "status": "Pending",
+        "invitee_email": "invitee1@example.com",
+        "created_at": "2023-08-16T02:11:47.787Z",
+        "updated_at": "2023-08-15T08:31:17.257Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "0a7f72f8-d7d1-4263-9958-bacacbc4dd81",
+        "status": "Accepted",
+        "invitee_email": "invitee2@example.com",
+        "created_at": "2023-08-16T05:29:59.574Z",
+        "updated_at": "2023-08-15T19:00:35.935Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "b83c720e-ebd3-4cdc-89de-528d1d8e26c1",
+        "status": "Declined",
+        "invitee_email": "invitee3@example.com",
+        "created_at": "2023-08-16T01:01:05.916Z",
+        "updated_at": "2023-08-16T04:38:37.105Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "e0288196-b50f-4b38-97bd-9115a2eb6d69",
+        "status": "Expired",
+        "invitee_email": "invitee4@example.com",
+        "created_at": "2023-08-16T01:12:26.760Z",
+        "updated_at": "2023-08-15T09:35:57.934Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      },
+      {
+        "id": "2594f9f3-be6c-47d2-a29d-3adff9cdfe8b",
+        "status": "Cancelled",
+        "invitee_email": "invitee5@example.com",
+        "created_at": "2023-08-15T20:21:16.088Z",
+        "updated_at": "2023-08-15T14:51:48.253Z",
+        "company_id": "main_entity_pk",
+        "inviter_id": "user_entity_pk"
+      }
+    ],
+    "car": [
+      {
+        "id": "09082de3-6047-450e-9aca-f515b658aeed",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 25111,
+        "status": "Available",
+        "location": "New York",
+        "created_at": "2023-08-15T12:22:20.422Z",
+        "updated_at": "2023-08-16T00:09:21.461Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "126fc956-b9b0-46fb-bf18-db64c7dce7c0",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 79463,
+        "status": "Booked",
+        "location": "Los Angeles",
+        "created_at": "2023-08-15T12:40:36.065Z",
+        "updated_at": "2023-08-15T22:51:32.908Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b4785bb3-392c-4803-81e0-08893a99b195",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 93853,
+        "status": "Under Maintenance",
+        "location": "Chicago",
+        "created_at": "2023-08-15T17:31:44.979Z",
+        "updated_at": "2023-08-15T08:53:12.637Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e820778-7368-4971-83f1-57a4b07af7c9",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 33858,
+        "status": "Out of Service",
+        "location": "Houston",
+        "created_at": "2023-08-15T22:29:28.847Z",
+        "updated_at": "2023-08-15T21:44:19.017Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e59227a2-4935-4750-a722-19195b85df23",
+        "make": "BMW",
+        "model": "X5",
+        "year": 54685,
+        "status": "Reserved",
+        "location": "Miami",
+        "created_at": "2023-08-15T15:57:35.551Z",
+        "updated_at": "2023-08-15T20:32:01.761Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "ebe80051-a8a6-4541-a628-66be82aaee85",
+        "start_time": "2023-08-16T07:11:53.734Z",
+        "end_time": "2023-08-15T21:00:27.184Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-15T08:59:25.138Z",
+        "updated_at": "2023-08-15T18:19:02.736Z",
+        "car_id": "09082de3-6047-450e-9aca-f515b658aeed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8019cd19-3644-4901-81d6-c5646c19aa3a",
+        "start_time": "2023-08-15T15:38:52.719Z",
+        "end_time": "2023-08-15T19:12:42.198Z",
+        "status": "Pending",
+        "created_at": "2023-08-15T20:15:26.088Z",
+        "updated_at": "2023-08-15T19:36:43.329Z",
+        "car_id": "b4785bb3-392c-4803-81e0-08893a99b195",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d179050f-5c29-4c4e-9b25-d3e3611db95d",
+        "start_time": "2023-08-16T02:05:02.501Z",
+        "end_time": "2023-08-16T06:21:15.238Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T06:34:53.547Z",
+        "updated_at": "2023-08-16T05:43:06.123Z",
+        "car_id": "e59227a2-4935-4750-a722-19195b85df23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2c2b004-5de1-4033-a378-89f720035999",
+        "start_time": "2023-08-16T04:47:41.154Z",
+        "end_time": "2023-08-16T02:44:01.081Z",
+        "status": "Completed",
+        "created_at": "2023-08-16T05:35:39.679Z",
+        "updated_at": "2023-08-16T04:59:34.785Z",
+        "car_id": "9e820778-7368-4971-83f1-57a4b07af7c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b42ecba5-0b13-4541-943e-fc1a11399557",
+        "start_time": "2023-08-15T21:47:18.382Z",
+        "end_time": "2023-08-15T21:59:16.521Z",
+        "status": "No Show",
+        "created_at": "2023-08-15T18:24:44.598Z",
+        "updated_at": "2023-08-15T20:13:31.879Z",
+        "car_id": "126fc956-b9b0-46fb-bf18-db64c7dce7c0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access_right": [
+      {
+        "id": "eec1cb5b-bd4c-4536-9d5c-649fb2b1ad4c",
+        "access_level": "Admin",
+        "created_at": "2023-08-15T22:04:50.248Z",
+        "updated_at": "2023-08-15T07:18:13.522Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e97358fd-9bc7-4846-8008-b8e567ea1019",
+        "access_level": "Manager",
+        "created_at": "2023-08-15T17:13:05.333Z",
+        "updated_at": "2023-08-15T08:34:35.498Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba308e15-a35d-4720-9063-426e299749ad",
+        "access_level": "Employee",
+        "created_at": "2023-08-15T11:24:10.156Z",
+        "updated_at": "2023-08-15T15:23:47.625Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1a53eed-12bc-405c-be9d-16c797d5a00b",
+        "access_level": "Guest",
+        "created_at": "2023-08-15T09:25:56.732Z",
+        "updated_at": "2023-08-15T21:25:08.508Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72308a93-31b7-4648-a91a-2e5fbb9988b6",
+        "access_level": "Read-only",
+        "created_at": "2023-08-15T20:59:54.225Z",
+        "updated_at": "2023-08-15T12:38:03.450Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bb334eb2-2735-4aec-aeeb-4e4d74f81f56",
+        "email": "Erik.Johnston2@gmail.com",
+        "firstName": "Bret",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11778316",
+        "tenantId": null
+      },
+      {
+        "reference": "033ef63a-c490-46b0-ab46-0f56a320124d",
+        "email": "Clarabelle_Dach20@gmail.com",
+        "firstName": "Faye",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/996.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c0a9c28d-f132-4e91-a676-dd6c196a0223",
+        "email": "Josiane_Jenkins@gmail.com",
+        "firstName": "Travis",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77375374",
+        "tenantId": null
+      },
+      {
+        "reference": "1525dce2-e05a-4ea1-9861-793c117edf72",
+        "email": "Wellington56@yahoo.com",
+        "firstName": "Melody",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28428931",
+        "tenantId": null
+      },
+      {
+        "reference": "ca620621-fcac-4fe4-8eb4-dddbca5544c8",
+        "email": "Rozella_Fritsch23@hotmail.com",
+        "firstName": "Lincoln",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73316180",
+        "tenantId": null
+      }
+    ]
+  }
+]
